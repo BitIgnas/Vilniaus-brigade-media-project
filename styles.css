@@ -1,0 +1,534 @@
+.navbar-color {
+    background: #161515 !important;
+}
+
+/* .navbar-brand-image {
+   margin-left: 17rem;
+} */
+
+/* .navbar-nav {
+    padding-right: 16rem !important;
+} */
+
+
+
+.bracket-custom-right {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #00FF57 !important;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.bracket-custom-left {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #00FF57 !important;
+    font-size: 24px;
+    margin-left: 2px;
+}
+
+.logo-name {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #585656 !important;
+    font-size: 29px;
+}
+
+nav .navbar-nav li a{
+    color: #524D4D !important;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar-nav > li{
+    padding-left:12px;
+    padding-right:12px;
+  }
+
+  .main-pane {
+      background-color: #1f1c1c;
+  }
+
+  .main-pane-heading {
+      color: rgb(228, 218, 218);
+      font-family: 'Ruda', sans-serif;
+      font-weight: 700;
+  }
+
+  .name-heading {
+    color: #19D664;
+    font-weight: 700;
+  }
+
+  .tech-stack {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #A7A7A7;
+  }
+
+  .java-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 10px;
+    color: #F6223B;    
+  }
+
+  .container {
+    max-width: 80% !important;/*Set your own width %; */
+ }
+
+ button {
+    margin: auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: #fafafa;
+    background-color: #00d166;
+    border: 100px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px rgba(50, 50, 50, .4);
+    transition: 0.3s all ease;
+    letter-spacing: 0.1rem;
+    font-size: 0.85rem;
+    
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-left: 2rem;
+}
+button:after, button:before {
+    position: absolute;
+    font-family: 'Barrio', sans-serif;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #006b34;
+    transition: 0.3s all ease;
+}
+button:before {
+    content: '<';
+    position: absolute;
+    left: 1.2rem;
+    border-radius: 7px;
+    top: 0.5rem;
+}
+button:after {
+    content: '_';
+    position: absolute;
+    left: 0.6rem;
+    border-radius: 7px;
+    top: 0.6rem;
+}
+button:hover {
+    box-shadow: 1px 1px 20px rgba(150, 150, 150, .2);
+    top: -0.1rem;
+    right: -0.1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover:before {
+    content: '<';
+    position: absolute;
+    left: 0.8rem;
+    border-radius: 7px;
+    top: 0.3rem;
+    border-radius: 7px;
+    transform: translateY(-1px);
+}
+
+
+
+.btn-text {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 30px;
+
+color: #ffffff;
+
+}
+
+.btn-main {
+    border-radius: 12px;
+}
+
+.tech-pane {
+    background-color: #0D1016;
+}
+
+.tech-box {
+    max-width: 500px;
+    height: 120px;
+
+    background: linear-gradient(262.42deg, #292929 -0.7%, #1F1C1C 90.19%);
+    border-radius: 13px;
+}
+
+.card-head {
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #3CAC69;
+}
+
+.card-desc {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 12px;
+
+color: #FFFFFF;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.github-link:hover {
+    text-decoration: none;
+    color: #00FF57;
+}
+
+.java-box-title {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 12px;
+
+color: #C8803E;
+}
+
+.angular-title {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 12px;
+
+color: #e73939;
+}
+
+.maintenence-title {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #6361C6;
+}
+
+.introduce-heading {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 12px;
+
+color: #FFFFFF;
+}
+
+.name-heads {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 30px;
+
+color: #CACACA;
+}
+
+.inspiration-heading {
+    font-family: Ubuntu Mono;
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+.project-head {
+    font-family: Ubuntu Mono;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 20px;
+
+color: #3CAC69;
+}
+
+.idea-head {
+    font-family: Ubuntu Mono;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 20px;
+
+color: #77478D;
+}
+
+.text-head {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+text-align: justify;
+
+color: #A09999;
+}
+
+.skills-pane {
+    background: #353030;
+}
+
+.education-heading {
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #5DF499;
+}
+
+.skills-underline {
+    border: 0 0 0 2px solid #5DF499;
+}
+
+.education-title {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.sda-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #5DF499;
+
+}
+
+.education-desc {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 14px;
+
+color: #8F8989;
+}
+
+.footer-contact {
+    background: black url(/assets/img/Footer-frame2.svg);
+    height: 668px;
+}
+
+.creative-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 37px;
+
+color: #FFFFFF;
+}
+
+.hi-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 37px;
+
+color: #5DF499;
+}
+
+.firstname-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+
+color: #FFFFFF;
+}
+
+.lastname-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 37px;
+
+color: #c4bcbc;
+}
+
+.information-heading {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+
+color: #8F8989;
+
+}
+
+.contacts {
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+text-decoration-line: underline;
+
+color: #19D664;
+}
+
+.rights-heading {
+    font-family: Overpass Mono;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-main {
+    margin: auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: #fafafa;
+    background-color: #00d166;
+    border: 100px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px rgba(50, 50, 50, .4);
+    transition: 0.3s all ease;
+    letter-spacing: 0.1rem;
+    font-size: 0.85rem;
+    
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-left: 2rem;
+}
+.btn-main:after, button:before {
+    position: absolute;
+    font-family: 'Barrio', sans-serif;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #006b34;
+    transition: 0.3s all ease;
+}
+.btn-main:before {
+    content: '_';
+    position: absolute;
+    left: 1.2rem;
+    border-radius: 7px;
+    top: 0.5rem;
+}
+.btn-main:after {
+    content: '>';
+    position: absolute;
+    left: 0.6rem;
+    border-radius: 7px;
+    top: 0.6rem;
+}
+.btn-main:hover {
+    box-shadow: 1px 1px 20px rgba(150, 150, 150, .2);
+    top: -0.1rem;
+    right: -0.1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn-main:hover:before {
+    content: '_';
+    position: absolute;
+    left: 0.8rem;
+    border-radius: 7px;
+    top: 0.3rem;
+    border-radius: 7px;
+    transform: translateY(-1px);
+}
+.btn-main:hover:after {
+    content: '>';
+    border-radius: 7px;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .bracket-custom-right {
+        font-family: 'Ubuntu Mono', monospace;
+        color: #00FF57 !important;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .bracket-custom-left {
+        font-family: 'Ubuntu Mono', monospace;
+        color: #00FF57 !important;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+    
+    .logo-name {
+        font-family: 'Ubuntu Mono', monospace;
+        color: #585656 !important;
+        font-size: 17px;
+    }
+  }
+
+
