@@ -414,14 +414,14 @@ line-height: 20px;
 color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
+.navbar-brand-image:hover {
+    text-decoration: none;
+    color: #00d166;
+}
 
 .btn-main {
     margin: auto;
@@ -488,28 +488,7 @@ color: #FFFFFF;
     top: 0.7rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 496px) {
     .bracket-custom-right {
         font-family: 'Ubuntu Mono', monospace;
         color: #00FF57 !important;
@@ -529,6 +508,10 @@ color: #FFFFFF;
         color: #585656 !important;
         font-size: 17px;
     }
+
+    .container {
+        max-width: 100% !important;/*Set your own width %; */
+     }
   }
 
 
