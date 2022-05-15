@@ -5,10 +5,13 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  color: #171414;
 }
 
+
+
 .navbar-color {
-  background: #161515 !important;
+  background: #000000 !important;
 }
 
 /* .navbar-brand-image {
@@ -40,19 +43,19 @@ body {
 }
 
 nav .navbar-nav li a {
-  color: #524d4d !important;
-  font-family: "Ruda", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  color: #E9E1E1 !important;
+  font-family: 'Saira Condensed',
+  sans-serif;
+  font-size: 20px;
 }
 
 .navbar-nav > li {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .main-pane {
-  background-color: #1f1c1c;
+  
 }
 
 .main-pane-heading {
@@ -161,8 +164,90 @@ button:hover:before {
   border-radius: 12px;
 }
 
+
 .tech-pane {
-  background-color: #0d1016;
+  background-color: #171414;
+}
+
+.card-heading {
+font-family: 'Saira Extra Condensed', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+
+color: #E9E1E1;
+}
+
+.card-heading-small {
+  font-family: 'Saira Extra Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 41px;
+  
+    color: #E9E1E1;
+}
+
+
+
+.name-bob-text {
+  font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+  
+    color: #F6223B;
+    font-family: 'Unica One', cursive;
+}
+
+.name-mob-text {
+  font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: justify;
+  
+    color: #FFFFFF;
+}
+
+.brigada-heading {
+  font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+  
+    color: #FFFFFF;
+}
+
+.small-text-bg-col {
+  width: 100%;
+  min-height: 50%; 
+}
+
+.img-mob {
+  height: 100%;
+  width: 100%;
+}
+
+.card-heading-boris {
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 41px;
+
+color: #E9E1E1;
+}
+
+.col-custom {
+  min-height: 40%;
+}
+
+.text-pane {
+  margin-top: 25%;
 }
 
 .portrait-image {
